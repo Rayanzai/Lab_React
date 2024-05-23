@@ -3,6 +3,7 @@ import Toolbar from "./Toolbar";
 import Gallery from "./Gallery"
 import Counter from "./Counter";
 import Form01 from "./Form01";
+import MovingDot from "./MovingDots";
 
 export default function Atv04(){
     return(
@@ -13,7 +14,9 @@ export default function Atv04(){
         <Gallery />
         <Counter />
         <Form01 />
-
+        <hr/>
+        <MovingDot/>
+        <hr/>
 
 
         <br />
