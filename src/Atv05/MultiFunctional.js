@@ -4,19 +4,19 @@ export default function MultFunctional(){
     const [valor, setValor] = useState(0);
 
     function soma() {
-        setValor(valor + 1);
+        setValor(valor+1);
     }
 
     function subtrai() {
-        setValor(valor - 1);
+        setValor(valor-1);
     }
 
     function multiplica() {
-        setValor(valor * 2);
+        setValor(valor*2);
     }
 
     function dividi() {
-        setValor(valor / 2);
+        setValor(valor/2);
     }
 
     function quadrado() {
@@ -24,7 +24,7 @@ export default function MultFunctional(){
     }
 
     function cubo() {
-        setValor((valor * valor) * valor);
+        setValor(valor * (valor * valor));
     }
 
     function zerar() {
